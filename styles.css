@@ -1,0 +1,14 @@
+* { box-sizing: border-box; }
+body { margin: 0; font-family: system-ui, -apple-system, Segoe UI, Roboto, Arial, sans-serif; line-height: 1.6; background: #f7f7fb; color: #222; }
+.container { width: 95%; max-width: 950px; margin: 0 auto; }
+.header { background: #0f62fe; color: #fff; padding: 28px 0; }
+.header h1 { margin: 0 0 6px 0; font-size: 2rem; }
+.tagline { margin: 0 0 10px 0; opacity: 0.9; }
+.header nav a { color: #fff; text-decoration: none; margin-right: 16px; font-weight: 600; }
+.header nav a:hover { text-decoration: underline; }
+main { padding: 24px 0 48px; }
+.card { background: #fff; border-radius: 12px; padding: 20px; margin: 16px 0; box-shadow: 0 4px 12px rgba(0,0,0,0.06); }
+.card h2 { margin-top: 0; }
+.project { border-left: 4px solid #0f62fe; padding-left: 12px; margin: 14px 0; }
+.code { background: #f0f3ff; padding: 6px 10px; border-radius: 6px; }
+.footer { background: #111; color: #eee; padding: 20px 0; text-align: center; }

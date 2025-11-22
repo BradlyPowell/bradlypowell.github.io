@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Bradly Powell — Portfolio</title>
+  <link rel="stylesheet" href="styles.css"/>
+</head>
+<body>
+  <header class="header">
+    <div class="container">
+      <h1 id="name">Bradly Powell</h1>
+      <p class="tagline">High School Student • Computer Science Pathway • Intern-Ready</p>
+      <nav>
+        <a href="#about">About</a>
+        <a href="#projects">Projects</a>
+        <a href="#resume">Resume</a>
+        <a href="#contact">Contact</a>
+      </nav>
+    </div>
+  </header>
+
+  <main class="container">
+    <img src="bradly_photo.jpeg" alt="Bradly Powell" style="width:220px;border-radius:12px;margin:10px auto;display:block;">
+    <section id="about" class="card">
+      <h2>About Me</h2>
+      <p>
+        I am a motivated high school student in the <strong>Computer Science pathway</strong> with strong
+        performance in Honors and AP classes. I enjoy learning Python and Java, building small projects,
+        and helping others. I am seeking a <strong>paid remote or Atlanta-area internship</strong> in tech to
+        gain hands-on experience while continuing advanced coursework.
+      </p>
+      <ul>
+        <li>Two-time School Spelling Bee Winner</li>
+        <li>Honors Chemistry, Honors Physics, Honors Biology</li>
+        <li>AP World History, AP European History, AP U.S. History</li>
+      </ul>
+    </section>
+
+    <section id="projects" class="card">
+      <h2>Projects</h2>
+      <article class="project">
+        <h3>Python Quiz Game</h3>
+        <p>A terminal-based quiz that tracks score, shows explanations, and lets you try again.</p>
+        <code>python quiz.py</code>
+      </article>
+      <article class="project">
+        <h3>Scratch Mini-Game</h3>
+        <p>A simple game built in MIT Scratch showing logic, loops, and events. (Link coming soon!)</p>
+      </article>
+      <article class="project">
+        <h3>Java GPA Calculator</h3>
+        <p>Java console app that calculates unweighted and weighted GPA for Regular/Honors/AP classes.</p>
+        <code>javac StudentGpaCalculator.java && java StudentGpaCalculator</code>
+      </article>
+    </section>
+
+    <section id="resume" class="card">
+      <h2>Resume</h2>
+      <p>
+        <strong>High School:</strong> Campbell High School, Smyrna, GA (Computer Science Pathway)<br/>
+        <strong>Skills:</strong> Microsoft Office, Teams/Zoom, Intro to Python/Java, Customer Service, Fast Learner<br/>
+        <strong>Experience:</strong> Publix — Cashier/Customer Service; Fresh to Order — Team Member
+      </p>
+      <p><em>Download a full PDF resume from my LinkedIn or request via email.</em></p>
+    </section>
+
+    <section id="contact" class="card">
+      <h2>Contact</h2>
+      <p>
+        Email: <a href="mailto:termedboss@gmail.com">termedboss@gmail.com</a><br/>
+        Location: Smyrna, GA
+      </p>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="container">
+      <small>© <span id="year"></span> Bradly Powell — Built with HTML & CSS.</small>
+    </div>
+  </footer>
+
+  <script>
+    document.getElementById('year').textContent = new Date().getFullYear();
+  </script>
+</body>
+</html>
